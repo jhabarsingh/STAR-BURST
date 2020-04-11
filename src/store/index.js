@@ -9,8 +9,33 @@ export default new Vuex.Store({
 	  			],
 	  			events:[
 	  			],
-	  			toogle: true
-
+	  			toogle: true,
+          founders:[
+            {
+              name:"david goggins",
+              designation: "marine seal",
+              url: "https://www.fearlessmotivation.com/wp-content/uploads/2017/07/david-goggins-self-made-750x400.jpg",
+              about:"Last sunday I got to interview one of the most intense people I know – David Goggins. I first wrote about David about a year ago. If you don’t know, David Goggins is a former 300 pound man turned ultra marathoner who’s been deemed by some people as the “toughest athlete on the planet.” He’s... continue reading"
+            },
+            {
+              name:"david goggins",
+              designation: "marine seal",
+              url: "https://www.fearlessmotivation.com/wp-content/uploads/2017/07/david-goggins-self-made-750x400.jpg",
+              about:"Last sunday I got to interview one of the most intense people I know – David Goggins. I first wrote about David about a year ago. If you don’t know, David Goggins is a former 300 pound man turned ultra marathoner who’s been deemed by some people as the “toughest athlete on the planet.” He’s... continue reading"
+            },
+            {
+              name:"david goggins",
+              designation: "marine seal",
+              url: "https://www.fearlessmotivation.com/wp-content/uploads/2017/07/david-goggins-self-made-750x400.jpg",
+              about:"Last sunday I got to interview one of the most intense people I know – David Goggins. I first wrote about David about a year ago. If you don’t know, David Goggins is a former 300 pound man turned ultra marathoner who’s been deemed by some people as the “toughest athlete on the planet.” He’s... continue reading"
+            },
+            {
+              name:"david goggins",
+              designation: "marine seal",
+              url: "https://www.fearlessmotivation.com/wp-content/uploads/2017/07/david-goggins-self-made-750x400.jpg",
+              about:"Last sunday I got to interview one of the most intense people I know – David Goggins. I first wrote about David about a year ago. If you don’t know, David Goggins is a former 300 pound man turned ultra marathoner who’s been deemed by some people as the “toughest athlete on the planet.” He’s... continue reading"
+            }
+          ]
  },
 
  getters:{
@@ -19,7 +44,10 @@ export default new Vuex.Store({
  	},
  	allEvents: function(state){
  			return state.events
- 	}
+ 	},
+  allFounders: function(state){
+    return state.founders
+  }
  },
  mutations: {
 

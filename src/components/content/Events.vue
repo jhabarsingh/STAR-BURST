@@ -90,7 +90,7 @@
 	cursor: pointer;
 }
 #img-pop{
-	height: 200px;
+	width: 200px;
 }
 
 .pop > h1{
@@ -99,7 +99,7 @@
 	padding: 7px;
 	font-size: 25px;
 	font-weight: bolder;
-	font-family: sherif;
+	font-family: sans-sherif;
 }
 
 #h2-pop{
@@ -118,7 +118,7 @@
 	box-shadow: 10px 6px 10px 2px black;
 	text-transform: capitalize;
 	font-size: 20px;
-	font-family: sherif;
+	font-family: ubuntu;
 	text-align: center;
 }
 

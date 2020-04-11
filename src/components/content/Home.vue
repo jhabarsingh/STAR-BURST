@@ -24,7 +24,7 @@
 		 </template>
 		 <div class="svg">
 			<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-			 width="600.000000pt" height="300.000000pt" viewBox="50 -50 800.000000 595.000000"
+			 width="600.000000pt" height="270.000000pt" viewBox="50 -50 800.000000 595.000000"
  			>
 
 				<g transform="translate(0.000000,595.000000) scale(0.100000,-0.100000)"
@@ -517,23 +517,33 @@
 				</g>
 			</svg>
 		 </div>
+		 <div class="type">
+		 	<vue-typed-js :strings="['space technology team']" :typeSpeed=200 :loop=true :backSpeed=100  :backDelay=100 >
+		   <h1 class="typing"></h1>
+		 </vue-typed-js>
+		 </div>
 	</div>
 	
 </template>
 
 
 <script>
-	export default{
-		mounted(){
-			TweenMax.from("svg",3, {opacity:0,scale:0,y:200,  x:-300,ease:"bounce.out", delay:.5})
-		}
-	}
+
+
+export default{
+	mounted(){
+		TweenMax.from("svg",3, {opacity:0,scale:0,  x:-300,ease:"bounce.out", delay:.5})
+		TweenMax.from(".type",.5, {opacity:0,scale:0,ease:"linear", delay:3})
+	},
+}
+
 </script>
 
 
 <style scoped>
 #home{
 	position: relative;
+	height: 100vh;
 }
 	#app{
   background: cover;
@@ -543,16 +553,19 @@
 .svg{
 	position: absolute;
 	width: 100%;
-	top: 0px;
+	top: -80px;
 }
 svg{
 	width: 100%;
-	height: 100%;
+	margin-top: 20vh;
+
 }
  svg > g{
  	animation: 3s change ease-out;
  	animation-iteration-count: infinite;
  	animation-direction: alternate;
+ 	top: -100px;
+ 	background: pink;
  }
 
  @keyframes change{
@@ -573,8 +586,29 @@ svg{
  }
  @media (max-width:822px){
  		.svg{
- 			top: 50px;
+ 			bottom: 40px;
 		}
  	}
 
+.typing{
+	font-size:2.7rem;
+	text-transform: uppercase;
+	font-family: 'Russo One', sans-serif;
+	font-weight: bolder;
+	letter-spacing: 3px;
+	color: wheat;
+	text-shadow: 1px 1px  6px whitesmoke;
+}
+
+.type{
+	position: absolute;
+	top:60vh;
+	text-align: center;
+	width: 100%;
+	padding: 40px;
+}
+.type > * > *{
+	text-align: center;
+	margin: auto;
+}
 </style>

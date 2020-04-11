@@ -19,28 +19,28 @@
 	  </button>
 	  <div class="collapse navbar-collapse div" id="navbarNav">
 	    <ul class="navbar-nav">
-	      <li class="navbar-collapse div" @click="$refs.button.click()">
+	      <li class="navbar-collapse div" @click="clicker()">
 	        <router-link to="/" tag="a" href="" exact >
 	        	Home
 	        </router-link>
 	      </li>
-	      <li class="nav-item active-collapse navbar-collapse div" @click="$refs.button.click()" >
+	      <li class="nav-item active-collapse navbar-collapse div" @click="clicker()" >
 	          <router-link to="/about" tag="a" exact>
 	        	about
 	        </router-link>
 	      </li>
-	      <li class="nav-item active-collapse navbar-collapse div" @click="$refs.button.click()">
+	      <li class="nav-item active-collapse navbar-collapse div" @click="clicker()">
 	          <router-link to="/events" tag="a" exact>
 	        	events
 	        </router-link>
 	      </li>
-	      <li class="nav-item active-collapse navbar-collapse div" @click="$refs.button.click()">
+	      <li class="nav-item active-collapse navbar-collapse div" @click="clicker()">
 	          <router-link to="/team" tag="a" exact
 	          >
 	        	Team
 	        </router-link>
 	      </li>
-	      <li class="nav-item active-collapse navbar-collapse div" @click="$refs.button.click()"
+	      <li class="nav-item active-collapse navbar-collapse div" @click="clicker()"
 				v-if="$store.state.toogle" 
 	      >
 	          <router-link to="/login" tag="a" 
@@ -53,7 +53,7 @@
 				@click="$store.commit('check')" 
 	       >
 	          <router-link to="/logout" tag="a"   exact
-	       		@click="$refs.button.click()"
+	       		@click="clicker"
 	          >
 	        	logout
 	        </router-link>
@@ -73,7 +73,12 @@ export default {
     	TweenMax.staggerFrom(" li >a", 1, { y:-20, opacity:0, ease: "bounce", delay:1}, .1) 
     	TweenMax.staggerFrom("a > h2 > span",1,  {opacity:0, scale:0, delay:2}, .1)
 	},
-	data: {
+	methods:{
+		clicker: function(){
+			if(window.innerWidth < 992){
+				this.$refs.button.click()
+			}
+		}
 	}
 
 }
@@ -183,13 +188,10 @@ a:active{
 	box-shadow: 2px 4px 10px 3px black;	
 	width:50px;
 	outline: none;
-	transition: 400ms linear;
-}
-
-.icons:hover{
-	transition: 400ms linear;
 	border-radius: 50%;
 }
+
+
 li{
 	margin-top: 15px;
 	padding: 0px;

@@ -3,7 +3,7 @@
 		<div class="container" v-if="checks == 'hidden'">
 			<h1>FOUNDERS</h1>
 			<div class="row">
-				<div class="col-md-6 col-12" v-for="(data, index) in allData" :key="index">
+				<div class="col-md-6 col-12" v-for="(data, index) in allFounders" :key="index">
 					<div class="jumbotron jumbo" :title="data.name">
 						<div class="row">
 								<div class="col-12">
@@ -46,11 +46,11 @@
 			<div class="col">
 				<div class="jumbotron jumbo pop" >
 					<i class="material-icons" @click="cancel()">cancel</i>
-					<img :src="allData[id].url"  class="img-thumbnail img-pop" />
-					<h1 class="h1-pop">{{allData[id].name}}</h1>
-					<h2 class="h2-pop">{{allData[id].designation}}</h2>
+					<img :src="allFounders[id].url"  class="img-thumbnail img-pop" />
+					<h1 class="h1-pop">{{allFounders[id].name}}</h1>
+					<h2 class="h2-pop">{{allFounders[id].designation}}</h2>
 					<p>
-						{{allData[id].about}}
+						{{allFounders[id].about}}
 					</p>
 				</div>
 			</div>
@@ -75,7 +75,8 @@ export default{
 	},
 	computed:{
 		...mapGetters([
-				"allData"
+				"allData",
+				"allFounders"
 			])
 	},
 	methods:{

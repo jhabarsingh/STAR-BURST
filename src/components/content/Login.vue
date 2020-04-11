@@ -15,8 +15,7 @@
 						v-model="password"
 				    >
 				  </div>
-				  <button type="submit" class="btn btn-primary" 
-						@click="$store.commit('check')"
+				  <button type="submit" class="btn btn-primary"
 				  >Submit</button>
 				</form>
 			</div>
@@ -48,6 +47,7 @@ export default{
 				returnSecureToken: true
 			})
 			.then(rel=>{
+				this.$store.commit('check')
 				localStorage.setItem("idToken", rel.data.idToken)
 				localStorage.setItem("expiresIn", new Date(new Date().getTime() + rel.data.expiresIn*1000))
 				this.$router.push("/loginhome")
