@@ -13,3 +13,11 @@
 
 #### [STARDUST](https://angry-fermi-020fd7.netlify.com) 
 
+## Home page
+![Home Page](https://github.com/jhabarsingh/STAR-DUST/blob/master/static/star.png?raw=true)
+
+---
+
+## Login page
+![Login Page](https://github.com/jhabarsingh/STAR-DUST/blob/master/static/Selectionshot_2021-01-15_16:46:37.png?raw=true)
+
