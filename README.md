@@ -1,4 +1,6 @@
-# **STARDUST**
+# StarDust
+
+#### [STARDUST](https://angry-fermi-020fd7.netlify.com) 
 
 <details>
   <summary>:zap: TECH STACK</summary>
@@ -11,7 +13,6 @@
 </div>
 </details>
 
-#### [STARDUST](https://angry-fermi-020fd7.netlify.com) 
 
 ## Home page
 ![Home Page](https://github.com/jhabarsingh/STAR-DUST/blob/master/static/star.png?raw=true)
@@ -21,3 +22,11 @@
 ## Login page
 ![Login Page](https://github.com/jhabarsingh/STAR-DUST/blob/master/static/Selectionshot_2021-01-15_16:46:37.png?raw=true)
 
+### You can contribute to this project in many ways
+ 1. You can create an issue if you find any bug.
+ 2. You can work on an existing issue and Send PR.
+ 3. You can make changes in the design if it is needed.
+ 4. Even if you find any grammatical or spelling mistake then also you can create an issue.
+
+> *I would be glad to see a notification saying `User {xyz} created a Pull Request`.
+I promise to review it.*
