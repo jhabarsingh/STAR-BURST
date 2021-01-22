@@ -7,11 +7,12 @@
   <summary>:zap: TECH STACK</summary>
   <br/>
   <div style="display:flex;justify-content:space-around">
-  <img titlt="Vuejs" src="https://vuejs.org/images/logo.png" width="50px" height="50px"  style="margin-right:5px;"/>
-  <img  title="Firebase" src="https://firebase.google.com/images/brand-guidelines/logo-vertical.png" width="50px" height="50px" style="margin-right:5px;" />
-  <img  title="Gsap" src="https://richcontentdesign.com/wp-content/uploads/2019/10/greensock@2x.png" height="50px"  style="margin-right:5px;"/>
-  <img title="Bootstrap"  src="https://obscureproblemsandgotchas.com/wp-content/uploads/2018/06/bootstrap-stack-e1530246058846.png" height="50px"  style="margin-right:5px;"/> 
-</div>
+    <img titlt="Vuejs" src="https://vuejs.org/images/logo.png" width="50px" height="50px"  style="margin-right:5px;"/>
+    <img  title="Vuex" src="https://s3.amazonaws.com/coursetro/posts/144-full.png"  height="50px" style="margin-right:5px;"     />
+    <img  title="Firebase" src="https://firebase.google.com/images/brand-guidelines/logo-vertical.png" width="50px" height="50px" style="margin-right:5px;"     />
+    <img  title="Gsap" src="https://richcontentdesign.com/wp-content/uploads/2019/10/greensock@2x.png" height="50px"  style="margin-right:5px;"/>
+    <img title="Bootstrap"  src="https://obscureproblemsandgotchas.com/wp-content/uploads/2018/06/bootstrap-stack-e1530246058846.png" height="50px"             style="margin-right:5px;"/> 
+  </div>
 </details>
 
 
@@ -29,7 +30,7 @@
  git clone https://github.com/jhabarsingh/STAR-DUST.git
  cd STAR-DUST
  npm install   # Node should be installed
- npm run serve # Vuejs should be installed
+ npm run start # Vuejs should be installed
 ```
 ## Want To Contribute
 ### You can contribute to this project in many ways
