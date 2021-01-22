@@ -22,6 +22,15 @@
 ## Login page
 ![Login Page](https://github.com/jhabarsingh/STAR-DUST/blob/master/static/Selectionshot_2021-01-15_16:46:37.png?raw=true)
 
+## Setup On Desktop
+[Install node](https://nodejs.org/en/download/) |
+[Install vue/cli](https://cli.vuejs.org/)
+```bash
+ git clone https://github.com/jhabarsingh/STAR-DUST.git
+ cd STAR-DUST
+ npm install   # Node should be installed
+ npm run serve # Vuejs should be installed
+```
 ## Want To Contribute
 ### You can contribute to this project in many ways
  1. You can create an issue if you find any bug.
