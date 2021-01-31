@@ -1,5 +1,4 @@
 # [STARDUST](https://angry-fermi-020fd7.netlify.com) 
-> [STARDUST](https://angry-fermi-020fd7.netlify.com)  is a **SINGLE PAGE APPLICATION** built for the  college stardust group using **VUEJS** and **FIREBASE** where team leaders can  dynamically add events and team members.
 
 
 <details>
@@ -13,6 +12,9 @@
     <img title="Bootstrap"  src="https://obscureproblemsandgotchas.com/wp-content/uploads/2018/06/bootstrap-stack-e1530246058846.png" height="50px"             style="margin-right:5px;"/> 
   </div>
 </details>
+
+## About
+> [STARDUST](https://angry-fermi-020fd7.netlify.com)  is a **SINGLE PAGE APPLICATION** built for the  college stardust group using **VUEJS** and **FIREBASE** where team leaders can  dynamically add events and team members.
 
 
 ## Home page
