@@ -14,7 +14,7 @@
 </details>
 
 ## About
-> [STARDUST](https://angry-fermi-020fd7.netlify.com)  is a **SINGLE PAGE APPLICATION** built for the  college stardust group using **VUEJS** and **FIREBASE** where team leaders can  dynamically add events and team members.
+ [STARDUST](https://angry-fermi-020fd7.netlify.com)  is a **SINGLE PAGE APPLICATION** built for the  college stardust group using **VUEJS** and **FIREBASE** where team leaders can  dynamically add events and team members.
 
 
 ## Home page
