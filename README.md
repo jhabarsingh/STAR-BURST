@@ -9,7 +9,7 @@
     <img  title="Vuex" src="https://s3.amazonaws.com/coursetro/posts/144-full.png"  height="50px" style="margin-right:5px;"     />
     <img  title="Firebase" src="https://firebase.google.com/images/brand-guidelines/logo-vertical.png" width="50px" height="50px" style="margin-right:5px;"     />
     <img  title="Gsap" src="https://richcontentdesign.com/wp-content/uploads/2019/10/greensock@2x.png" height="50px"  style="margin-right:5px;"/>
-    <img title="Bootstrap"  src="https://obscureproblemsandgotchas.com/wp-content/uploads/2018/06/bootstrap-stack-e1530246058846.png" height="50px"             style="margin-right:5px;"/> 
+    <img title="Bootstrap"  src="https://icons.getbootstrap.com/assets/img/icons-hero.png" height="50px" style="margin-right:5px;"/> 
   </div>
 </details>
 
