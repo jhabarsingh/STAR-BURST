@@ -1,4 +1,4 @@
-# [STARDUST](https://angry-fermi-020fd7.netlify.com) 
+# [STARDUST <img width="50px" src="https://raw.githubusercontent.com/jhabarsingh/STAR-DUST/master/static/stardust.ico" />](https://angry-fermi-020fd7.netlify.com)
 
 
 <details>
