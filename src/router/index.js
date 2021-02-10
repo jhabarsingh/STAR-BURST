@@ -11,7 +11,7 @@ import LoginHome from "../components/auth/LoginHome.vue"
 import EventsModel from "../components/auth/EventsModel.vue"
 import TeamModel from "../components/auth/TeamModel.vue"
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [
@@ -36,8 +36,9 @@ export default new Router({
         path: "/logout",
         component: Login,
         beforeEnter(to, from, next){
-          localStorage.clear()
-          next("/login")
+          // Clear the local storage before logout;
+          localStorage.clear();
+          next("/login");
         }
       },
   		{
@@ -47,12 +48,12 @@ export default new Router({
   		{
   			path: "/loginHome",
   			component: LoginHome,
-         beforeEnter(to, from, next){
-          if(localStorage.getItem("idToken")){
-             
-            next()
-          }else{
-            next("/login")
+         beforeEnter(to, from, next) {
+          if(localStorage.getItem("idToken")) { 
+            next();
+          }
+          else {
+            next("/login");
           }
         }
 
@@ -60,11 +61,12 @@ export default new Router({
   		{
   			path: "/eventsmodel",
   			component: EventsModel,
-         beforeEnter(to, from, next){
-          if(localStorage.getItem("idToken")){
-            next()
-          }else{
-            next("/login")
+         beforeEnter(to, from, next) {
+          if(localStorage.getItem("idToken")) {
+            next();
+          }
+          else {
+            next("/login");
           }
         }
 
@@ -72,11 +74,12 @@ export default new Router({
   		{
   			path: "/teammodel",
   			component: TeamModel,
-         beforeEnter(to, from, next){
-          if(localStorage.getItem("idToken")){
-            next()
-          }else{
-            next("/login")
+         beforeEnter(to, from, next) {
+          if(localStorage.getItem("idToken")) {
+            next();
+          }
+          else {
+            next("/login");
           }
         }
 
