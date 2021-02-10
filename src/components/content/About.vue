@@ -15,36 +15,35 @@
 
 
 <script>
-	
 </script>
 
 
 <style scoped>
-.about{
-	padding-top: 130px;
-	padding-bottom: 12px;
+  .about {
+    padding-top: 130px;
+    padding-bottom: 12px;
 
-}
-.jumbo{
-	margin:10px;
-	color: white;
-	background: #100E17;
-	text-align: justify;
-	box-shadow: 10px 6px 10px 2px black;
-	text-transform: capitalize;
-	font-size: 20px;
-	font-family: ubuntu;
-}
+  }
+  .jumbo {
+    margin:10px;
+    color: white;
+    background: #100E17;
+    text-align: justify;
+    box-shadow: 10px 6px 10px 2px black;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: ubuntu;
+  }
 
-h1{
-	border-bottom: 2px solid white;
-	text-transform: uppercase;
-	font-size: 200%;
-	font-weight: bolder;
-	font-family: ubuntu;
-	color:wheat;
-	padding: 10px;
-	margin-bottom: 30px;	
-}
+  h1 {
+    border-bottom: 2px solid white;
+    text-transform: uppercase;
+    font-size: 200%;
+    font-weight: bolder;
+    font-family: ubuntu;
+    color:wheat;
+    padding: 10px;
+    margin-bottom: 30px;	
+  }
 
 </style>
