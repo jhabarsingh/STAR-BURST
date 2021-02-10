@@ -6,7 +6,7 @@
               <div class="jumbotron jumbo">
                  <div class="grade" style="padding:10px 0px;">
                     <img src="../assets/logo.png" class="imagica" />
-                 <div id="address">
+                 </div id="address">
                  ramaiah institute of technology, msr nagar, bangalore  560054, karnataka, india
               </div>
             </div>
