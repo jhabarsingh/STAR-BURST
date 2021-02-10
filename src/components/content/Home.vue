@@ -26,7 +26,6 @@
 			<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
 			 width="600.000000pt" height="300.000000pt" viewBox="50 -50 800.000000 595.000000"
  			>
-
 				<g transform="translate(0.000000,595.000000) scale(0.100000,-0.100000)"
 				fill="#ffffff" stroke="none">
 				<path d="M6340 4810 c-28 -28 -34 -61 -27 -149 7 -93 40 -191 114 -339 31 -61
@@ -523,8 +522,8 @@
 
 
 <script>
-	export default{
-		mounted(){
+	export default {
+		mounted() {
 			TweenMax.from("svg",3, {opacity:0,scale:0,y:200,  x:-300,ease:"bounce.out", delay:.5})
 		}
 	}
@@ -532,49 +531,57 @@
 
 
 <style scoped>
-#home{
-	position: relative;
-}
-	#app{
-  background: cover;
+  #home {
+    position: relative;
+  }
 
-	width: 100%;
-}
-.svg{
-	position: absolute;
-	width: 100%;
-	top: 0px;
-}
-svg{
-	width: 100%;
-	height: 100%;
-}
- svg > g{
- 	animation: 3s change ease-out;
- 	animation-iteration-count: infinite;
- 	animation-direction: alternate;
- }
+  #app {
+   background: cover;
+   width: 100%;
+  }
 
- @keyframes change{
- 	0%{
-		fill: white;
- 	}20%{
-		fill: wheat;
- 	}40%{
- 		fill :lightblue;
- 	}70%{
-		fill: white;
- 	}90%{
-		fill: lightgreen;
- 	}100%{
-		fill: wheat;
- 	}
+  .svg {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+  }
 
- }
- @media (max-width:822px){
- 		.svg{
- 			top: 50px;
-		}
- 	}
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  svg > g {
+    animation: 3s change ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes change {
+    0% {
+      fill: white;
+    }
+    20% {
+      fill: wheat;
+    }
+    40% {
+      fill :lightblue;
+    }
+    70% {
+      fill: white;
+    }
+    90% {
+      fill: lightgreen;
+    }
+    100% {
+      fill: wheat;
+    }
+
+  }
+  @media (max-width:822px) {
+    .svg {
+      top: 50px;
+    }
+  }
 
 </style>
