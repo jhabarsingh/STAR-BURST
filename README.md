@@ -31,7 +31,7 @@
 ```bash
  git clone https://github.com/jhabarsingh/STAR-DUST.git
  cd STAR-DUST
- npm install   # Node should be installed
+ npm install   # Nodejs should be installed
  npm run start # Vuejs should be installed
 ```
 ## [Want To Contribute](https://medium.com/mindsdb/contributing-to-an-open-source-project-how-to-get-started-6ba812301738)
