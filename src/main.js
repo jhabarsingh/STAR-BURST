@@ -12,7 +12,6 @@ Vue.use(VueResource)
 Vue.use(VueParticles)
 Vue.config.productionTip = false
 
-
 new Vue({
   el: '#app',
   router,
