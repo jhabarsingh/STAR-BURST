@@ -18,7 +18,6 @@
 								<button class="btn btn-dark db"  @click="clickMe(index)">About</button >
 						</div>
 					</div>
-
 				</div>
 			</div>
 			<hr>
@@ -55,40 +54,36 @@
 				</div>
 			</div>
 		</div>
-
 	</div>
-
-
 </template>
 
 
 <script>
 import {mapGetters} from "vuex"
-export default{
-	data(){
-		return{
+export default {
+	data() {
+		return {
 			checks:'hidden',
 			id: 0,
 			color:'red'
-
 		}
 	},
-	computed:{
+	computed: {
 		...mapGetters([
 				"allData"
 			])
 	},
-	methods:{
-		clickMe: function(key){
+	methods: {
+		clickMe: function(key) {
 			this.id = key
 			this.checks = "visible"
 		},
-		cancel: function(){
+		cancel: function() {
 			this.checks = "hidden"
 		}
 	},
-	updated(){
-		TweenMax.from(".popr", 1.5, {opacity:0,x:-300, y:300, scale:0})
+	updated() {
+		TweenMax.from(".popr", 1.5, {opacity:0,x:-300, y:300, scale:0});
 	}
 }
 </script>
