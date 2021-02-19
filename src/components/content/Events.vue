@@ -8,13 +8,12 @@
 						<img :src="event.url"class="img-thumbnail ">
 						<h3 class="text-uppercase">{{event.title}}</h3>
 						<p>
-							{{event.about.split(" ").splice(0,25).join(" ")+" . . . . . ."}}
+							{{event.about.split(" ").splice(0,25).join(" ") + " . . . . . ."}}
 						</p>
 						<button class="btn btn-dark" @click="collect(index)">More</button >
 				</div>
 			</div>
-		</div>	
-			
+		</div>		
 	</div>
 	<div class="row popr" v-if="check == 'visible'">
 			<div class="col">
@@ -34,8 +33,8 @@
 <script>
 	import {mapGetters} from "vuex"
 	export default{
-		data(){
-			return{
+		data() {
+			return {
 				check: "hidden",
 				id: 0,
 			}
@@ -45,55 +44,55 @@
 				"allEvents"
 			]),
 		},
-		methods:{
-			collect: function(data){
+		methods: {
+			collect: function(data) {
 					this.id = data
 					this.check = "visible"
 			},
-			cancel: function(){
+			cancel: function() {
 				this.id=0,
 				this.check = "hidden"
-
 			}
 		},
-		updated(){
-			TweenMax.from(".popr",1.5,{opacity:0,x:-400, y:400,  scale:0})
+		updated() {
+			TweenMax.from(".popr",1.5,{opacity:0,x:-400, y:400,  scale:0});
 		}
 	}
 </script>
 
 
 <style scoped>
-.events{
+.events {
 	padding-top: 130px;
-
 	padding-bottom: 12px;
-
-
 }
 
-.pop{
+.pop {
 	position: relative;
 }
-.popr{
+
+.popr {
 	width: 95%;
 	margin: auto;
 }
-.pop > i{
+
+.pop > i {
 	position: absolute;
 	top: 15px;
 	right: 15px;
 	padding: 5px;
 }
-.pop > i:hover{
+
+.pop > i:hover {
 	box-shadow: 2px 3px 10px 4px black;
 	cursor: pointer;
 }
-#img-pop{
+
+#img-pop {
 	height: 200px;
 }
 
-.pop > h1{
+.pop > h1 {
 	width: 70%;
 	margin: 8px auto 10px;
 	padding: 7px;
@@ -102,7 +101,7 @@
 	font-family: sherif;
 }
 
-#h2-pop{
+#h2-pop {
 	text-align: justify;
 	font-size: 20px;
 	line-height: 30px;
@@ -110,7 +109,8 @@
 	margin: auto;
 	font-family: ubuntu;
 }
-.jumbo{
+
+.jumbo {
 	margin:10px;
 	color: white;
 	background: #100E17;
@@ -122,7 +122,7 @@
 	text-align: center;
 }
 
-h1{
+h1 {
 	border-bottom: 2px solid white;
 	text-transform: uppercase;
 	font-size: 35px;
@@ -133,29 +133,29 @@ h1{
 	margin-bottom: 30px;
 }
 
-.jumbo > img{
-
+.jumbo > img {
 	width : 200px;
 	height: 130px;
 }
 
-.jumbo:hover{
+.jumbo:hover {
 	box-shadow: 10px 6px 20px 3px black;
 }
-.jumbo > h3{
+
+.jumbo > h3 {
 	text-align: center;
 	padding: 8px 0px 0px 0px;
 	font-size: 23px;
 	font-weight:bolder;
 	font-family: sherif;
 }
+
 .jumbo >button {
 		padding: 10px 25px;
-
 }
 
-.jumbo > p{
-
+.jumbo > p {
 	text-align: justify;
 }
+
 </style>
