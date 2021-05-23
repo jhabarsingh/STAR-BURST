@@ -1,4 +1,4 @@
-# [STARDUST <img width="50px" src="https://raw.githubusercontent.com/jhabarsingh/STAR-DUST/master/static/stardust.ico" />](https://angry-fermi-020fd7.netlify.com)
+# [STARBURST <img width="50px" src="https://raw.githubusercontent.com/jhabarsingh/STAR-BURST/master/static/stardust.ico" />](https://angry-fermi-020fd7.netlify.com)
 
 
 <details>
@@ -15,22 +15,22 @@
 </details>
 
 ## About
- [**STARDUST**](https://angry-fermi-020fd7.netlify.com)  is a **SINGLE PAGE APPLICATION** built for the  college stardust group. **Firebase** Database API is used so that the team leaders can  dynamically add events and team members.
+ [**STARBURST**](https://angry-fermi-020fd7.netlify.com)  is a **SINGLE PAGE APPLICATION** built using Vuejs. **Firebase** Database API is used to make the website dynamic.
 
 
 ## Home page
-![Home Page](https://github.com/jhabarsingh/STAR-DUST/blob/master/static/star.png?raw=true)
+![Home Page](https://github.com/jhabarsingh/STAR-BURST/blob/master/static/star.png?raw=true)
 
 
 ## Login page
-![Login Page](https://github.com/jhabarsingh/STAR-DUST/blob/master/static/Selectionshot_2021-01-15_16:46:37.png?raw=true)
+![Login Page](https://github.com/jhabarsingh/STAR-BURST/blob/master/static/Selectionshot_2021-01-15_16:46:37.png?raw=true)
 
 ## Setup On Desktop
 [Install node](https://nodejs.org/en/download/) |
 [Install vue/cli](https://cli.vuejs.org/)
 ```bash
- git clone https://github.com/jhabarsingh/STAR-DUST.git
- cd STAR-DUST
+ git clone https://github.com/jhabarsingh/STAR-BURST.git
+ cd STAR-BURST
  npm install   # Nodejs should be installed
  npm run start # Vuejs should be installed
 ```
